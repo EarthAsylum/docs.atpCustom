@@ -1,64 +1,81 @@
-# ATP Custom Plugin for WordPress  
+## ATP Custom Plugin for WordPress  
 [![EarthAsylum Consulting](https://img.shields.io/badge/EarthAsylum-Consulting-0?&labelColor=6e9882&color=707070)](https://earthasylum.com/)
 [![WordPress](https://img.shields.io/badge/WordPress-Plugins-grey?logo=wordpress&labelColor=blue)](https://wordpress.org/plugins/search/EarthAsylum/)
-[![eacDoojigger](https://img.shields.io/badge/Requires-{eac}Doojigger-da821d)](https://eacDoojigger.earthasylum.com/)
+[![eacDoojigger](https://img.shields.io/badge/Requires-%7Beac%7DDoojigger-da821d)](https://eacDoojigger.earthasylum.com/)
 
-<details><summary>Plugin Header</summary><samp>
+<details><summary>Plugin Header</summary>
 
-Plugin URI: 			https://earthasylum.github.io/docs.atpCustom/  
-Author: 				[EarthAsylum Consulting](https://www.earthasylum.com)  
-Stable tag: 			4.2.7  
-Last Updated: 			29-Jan-2024  
-Requires at least: 		5.5.0  
-Tested up to: 			6.4  
-WC requires at least: 	5.2  
-WC tested up to: 		8.2  
-Requires EAC: 			2.3  
-Requires PHP: 			7.2  
-Contributors:			[kevinburkholder](https://profiles.wordpress.org/kevinburkholder)  
-License: 				Proprietary  
-GitHub URI:				https://github.com/EarthAsylum/atpCustom  
-</samp></details>
+Plugin URI:             https://earthasylum.github.io/docs.atpCustom/  
+Author:                 [EarthAsylum Consulting](https://www.earthasylum.com)  
+Stable tag:             4.2.8  
+Last Updated:           04-Apr-2024  
+Requires at least:      5.5.0  
+Tested up to:           6.5  
+WC requires at least:   5.2  
+WC tested up to:        8.7  
+Requires EAC:           2.3  
+Requires PHP:           7.2  
+Contributors:           [earthasylum](https://github.com/earthasylum),[kevinburkholder](https://profiles.wordpress.org/kevinburkholder)  
+License:                Proprietary  
+GitHub URI:             https://github.com/EarthAsylum/atpCustom  
 
-**_Adds WooCommerce customization, Cybersource gateway + NetSuite integration, Tealium, Bazaarvoice, Nuance chat, Facebook & Snapchat conversion + more_**
+</details>
 
-## Description
+> Adds WooCommerce customization, Cybersource gateway + NetSuite integration, Tealium, Bazaarvoice, Nuance chat, Facebook & Snapchat conversion, Kinsta API + more
+
+### Description
 
 **American Telecast Products plugin & extensions**
 
-Adds WooCommerce customization, Cybersource gateway + NetSuite integration, Tealium, Bazaarvoice, Nuance chat, Facebook & Snapchat conversion + more
+Adds WooCommerce customization, Cybersource gateway + NetSuite integration, Tealium, Bazaarvoice, Nuance chat, Facebook & Snapchat conversion, Kinsta API + more
 
 #### Included Extensions
 
-	ajaxAction.extension.php
-	admin_tools.extension.php
-	avatax.debugging.extension.php
-	cart.debugging.extension.php
-	eacCodeInjection.extension.php
-	encryption.extension.php
-	session.extension.php
+Genersl / Tools
 
-	marketing
-		nuance_chat.extension.php
-		offer_manager.extension.php
-		offer_manager.taxonomy.php
-		sourcing.extension.php
+    ajaxAction.extension.php
+    admin_tools.extension.php
+    avatax.debugging.extension.php
+    cart.debugging.extension.php
+    encryption.extension.php
+    session.extension.php
 
-	order_processing
-		cybersource.extension.php
-		netscore.extension.php
-		order_validation.extension.php
-		salesorder_api.extension.php
+Code Injection
 
-	tracking
-		bazaarvoice.extension.php
-		facebook.extension.php
-		snapchat.extension.php
-		tealium.extension.php
+    inject_CSS.extension.php
+    inject_HTML.extension.php
+    inject_JS.extension.php
+    inject_PHP.extension.php
 
-	woocommerce
-		cart.extension.php
-		woocommerce.extension.php
+Kinsta
+
+    kinsta.extension.php
+
+Marketing
+
+    nuance_chat.extension.php
+    offer_manager.extension.php
+    offer_manager.taxonomy.php
+    sourcing.extension.php
+
+Order Processing
+
+    cybersource.extension.php
+    netscore.extension.php
+    order_validation.extension.php
+    salesorder_api.extension.php
+
+Tracking
+
+    bazaarvoice.extension.php
+    facebook.extension.php
+    snapchat.extension.php
+    tealium.extension.php
+
+Woocommerce
+
+    cart.extension.php
+    woocommerce.extension.php
 
 
 #### Using atpCustom
@@ -69,55 +86,56 @@ __Method Access__
 
 Public methods in atpCustom may be accessed by using the global `ATP()` function.
 
-	ATP()->{methodName}(...$arguments);
+    ATP()->{methodName}(...$arguments);
 
 For example, to write an entry to the debugging log...
 
-	ATP()->logDebug($myVariable,'Logging myVariable');
+    ATP()->logDebug($myVariable,'Logging myVariable');
 
 To access a plugin option...
 
-	ATP()->get_option('my_option_name');
+    ATP()->get_option('my_option_name');
 
 To execute a plugin action...
 
-	ATP()->do_action('my_action_name',$arg1,$arg2,...);
+    ATP()->do_action('my_action_name',$arg1,$arg2,...);
 
 To execute a method in a plugin extension, use `callMethod()`...
 
-	ATP()->callMethod( [extensionName, extensionMethodName], ...$arguments )
+    ATP()->callMethod( [extensionName, extensionMethodName], ...$arguments )
+    ATP()->extensionName->extensionMethodName( ...$arguments )
 
 __How To__
 
 Get a post value and format it using a shortcode
 
-	[atpCustom method='get_the_field' args='_price, 2804, wc_price']
+    [atpCustom method='get_the_field' args='_price, 2804, wc_price']
 
 Get the current sourcing array using a filter
 
-	$sourcing = $this->apply_filters( 'get_sourcing', [] );
+    $sourcing = $this->apply_filters( 'get_sourcing', [] );
 
 Get the url "key" from sourcing using a filter
 
-	$key = $this->apply_filters( 'get_sourcing', '', 'urlkey' );
+    $key = $this->apply_filters( 'get_sourcing', '', 'urlkey' );
 
 Get the url "key" from sourcing using a shortcode
 
-	[atpCustom method='getVariable' args='urlkey']
+    [atpCustom method='getVariable' args='urlkey']
 
 Get the current offer array using a filter
 
-	$offer = $this->apply_filters( 'get_offer', [] );
+    $offer = $this->apply_filters( 'get_offer', [] );
 
 Get the current offer name using a shortcode
 
-	[atpCustom method='getVariable' args='OfferName']
+    [atpCustom method='getVariable' args='OfferName']
 
 
->	__ATP Custom__ provides the same filters, shortcodes, and methods as {eac}Doojigger. See [Using {eac}Doojigger](https://eacdoojigger.earthasylum.com/using-doojigger/) for more.
+>   __ATP Custom__ provides the same filters, shortcodes, and methods as {eac}Doojigger. See [Using {eac}Doojigger](https://eacdoojigger.earthasylum.com/using-doojigger/) for more.
 
 
-## Installation
+### Installation
 
 #### Automatic Plugin Installation
 
