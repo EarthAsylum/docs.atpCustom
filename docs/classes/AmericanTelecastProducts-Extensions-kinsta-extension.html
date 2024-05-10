@@ -133,7 +133,7 @@
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    order_validation
+    kinsta_extension
 
         <span class="phpdocumentor-element__extends">
         extends <abbr title="\EarthAsylumConsulting\abstract_extension">abstract_extension</abbr>
@@ -151,13 +151,13 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-order-processing-order-validation-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php">order_validation.extension.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php">kinsta.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Extension: order_validation - Validate order when submited</p>
+            <p class="phpdocumentor-summary">Extension: kinsta_extension - kinsta API - ATP Custom Plugin for WordPress</p>
 
 
 
@@ -201,6 +201,31 @@
                                                                                 
                                              
                                     </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">see</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                    <span class="phpdocumentor-tag-link"><a href="https://eacDoojigger.earthasylum.com/phpdoc/"><abbr title="https://eacDoojigger.earthasylum.com/phpdoc/">https://eacDoojigger.earthasylum.com/phpdoc/</abbr></a></span>
+                                        
+                                             
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">used-by</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>\EarthAsylumConsulting\abstract_core</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">uses</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                    <span class="phpdocumentor-tag-link"><abbr title="\EarthAsylumConsulting\abstract_extension">abstract_extension</abbr></span>
+                                        
+                                             
+                                    </dd>
                         </dl>
 
 
@@ -215,81 +240,88 @@
 
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#constant_ALIAS">ALIAS</a>
+    <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#constant_KINSTA_URL">KINSTA_URL</a>
     <span>
-        &nbsp;= &#039;Validation&#039;                            </span>
+        &nbsp;= &#039;https://api.kinsta.com/v2/&#039;                            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#constant_IP_ACTION_ARRAY">IP_ACTION_ARRAY</a>
+    <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#constant_VERSION">VERSION</a>
     <span>
-        &nbsp;= [&#039;auth_attempts&#039; =&gt; 0, &#039;shop_visit&#039; =&gt; 0, &#039;prior_orders&#039; =&gt; 0]                            </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#constant_VERSION">VERSION</a>
-    <span>
-        &nbsp;= &#039;24.0429.1&#039;                            </span>
+        &nbsp;= &#039;24.0426.1&#039;                            </span>
 </dt>
 <dd></dd>
 
                         <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method___construct">__construct()</a>
+    <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>constructor method</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_addActionsAndFilters">addActionsAndFilters()</a>
+    <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_addActionsAndFilters">addActionsAndFilters()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>Add filters and actions - called from main plugin</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_admin_options_settings">admin_options_settings()</a>
+    <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_admin_options_settings">admin_options_settings()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>register options on options_settings_page</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_cybersource_response">cybersource_response()</a>
+    <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_admin_options_settings_cache">admin_options_settings_cache()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>On cybersource response, reset transients</dd>
+<dd>register cache options on options_settings_page</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_cybersource_validate">cybersource_validate()</a>
-    <span>
-                                &nbsp;: bool|string    </span>
-</dt>
-<dd>Validate the CyberSource request prior to authorization attempt</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_initialize">initialize()</a>
+    <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_initialize">initialize()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 <dd>initialize method - called from main plugin</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_save_transient">save_transient()</a>
+    <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_api_request">kinsta_api_request()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: object    </span>
 </dt>
-<dd>Save our transient on exit</dd>
+<dd>remote api request</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_set_shop_visit">set_shop_visit()</a>
+    <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_clear_cache">kinsta_clear_cache()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>Set shop visit time when visiting a woocommerce page to ensure visit prior to checkout</dd>
+<dd>Kinsta clear cache</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_clear_edge_cache">kinsta_clear_edge_cache()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Kinsta clear edge cache</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_download">kinsta_download()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Kinsta download sites/environments</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_last_operation">kinsta_last_operation()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Kinsta check last operation</dd>
 
         </dl>
 
@@ -299,61 +331,32 @@
     <section class="phpdocumentor-constants">
         <h3 class="phpdocumentor-elements__header" id="constants">
             Constants
-            <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_ALIAS">
-        ALIAS
-        <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#constant_ALIAS" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="constant_KINSTA_URL">
+        KINSTA_URL
+        <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#constant_KINSTA_URL" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-order-processing-order-validation-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php">order_validation.extension.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php">kinsta.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\AmericanTelecastProducts\Extensions\ALIAS">ALIAS</abbr></span>
-    <span class="phpdocumentor-signature__name">ALIAS</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;Validation&#039;</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">KINSTA_URL</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;https://api.kinsta.com/v2/&#039;</span>
 </code>
 
 
     
-        <section class="phpdocumentor-description"><p>constant ($this-&gt;Validation-&gt;...)</p>
-</section>
-
-    
-
-</article>
-                    <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_IP_ACTION_ARRAY">
-        IP_ACTION_ARRAY
-        <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#constant_IP_ACTION_ARRAY" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-order-processing-order-validation-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php">order_validation.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">30</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\AmericanTelecastProducts\Extensions\initial">initial</abbr></span>
-    <span class="phpdocumentor-signature__name">IP_ACTION_ARRAY</span>
-    = <span class="phpdocumentor-signature__default-value">[&#039;auth_attempts&#039; =&gt; 0, &#039;shop_visit&#039; =&gt; 0, &#039;prior_orders&#039; =&gt; 0]</span>
-</code>
-
-
-    
-        <section class="phpdocumentor-description"><p>array</p>
+        <section class="phpdocumentor-description"><p>kinsta api url</p>
 </section>
 
     
@@ -362,13 +365,13 @@
                     <article class="phpdocumentor-element -constant -public ">
     <h4 class="phpdocumentor-element__name" id="constant_VERSION">
         VERSION
-        <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#constant_VERSION" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#constant_VERSION" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-order-processing-order-validation-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php">order_validation.extension.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php">kinsta.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
@@ -377,7 +380,7 @@
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">VERSION</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;24.0429.1&#039;</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;24.0426.1&#039;</span>
 </code>
 
 
@@ -395,7 +398,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -405,12 +408,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-order-processing-order-validation-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php">order_validation.extension.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php">kinsta.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">56</span>
 
     </aside>
 
@@ -450,12 +453,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_addActionsAndFilters">
         addActionsAndFilters()
-        <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_addActionsAndFilters" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_addActionsAndFilters" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-order-processing-order-validation-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php">order_validation.extension.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php">kinsta.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">153</span>
+    <span class="phpdocumentor-element-found-in__line">253</span>
 
     </aside>
 
@@ -483,12 +486,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_admin_options_settings">
         admin_options_settings()
-        <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_admin_options_settings" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_admin_options_settings" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-order-processing-order-validation-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php">order_validation.extension.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php">kinsta.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">73</span>
+    <span class="phpdocumentor-element-found-in__line">78</span>
 
     </aside>
 
@@ -529,71 +532,41 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_cybersource_response">
-        cybersource_response()
-        <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_cybersource_response" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_admin_options_settings_cache">
+        admin_options_settings_cache()
+        <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_admin_options_settings_cache" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-order-processing-order-validation-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php">order_validation.extension.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php">kinsta.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">357</span>
+    <span class="phpdocumentor-element-found-in__line">185</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">On cybersource response, reset transients</p>
+        <p class="phpdocumentor-summary">register cache options on options_settings_page</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">cybersource_response</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$response</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$order</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\AmericanTelecastProducts\Extensions\SV_WC_API_Base">SV_WC_API_Base</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$api</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">admin_options_settings_cache</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$response</span>
-                : <span class="phpdocumentor-signature__argument__return-type">object</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><ul>
-<li>SV_WC_Payment_Gateway_API_Response transaction response</li>
-</ul>
-</section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$request</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><ul>
-<li>Cybersource API request data</li>
-</ul>
-</section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$order</span>
-                : <span class="phpdocumentor-signature__argument__return-type">object</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><ul>
-<li>\WC_Order order object</li>
-</ul>
-</section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$api</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\AmericanTelecastProducts\Extensions\SV_WC_API_Base">SV_WC_API_Base</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>instance</p>
-</section>
-
-            </dd>
-            </dl>
-
     
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
@@ -607,72 +580,14 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_cybersource_validate">
-        cybersource_validate()
-        <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_cybersource_validate" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-order-processing-order-validation-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php">order_validation.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">210</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Validate the CyberSource request prior to authorization attempt</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">cybersource_validate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$is_valid</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gateway</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|string</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$is_valid</span>
-                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>(true)</p>
-</section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$gateway</span>
-                : <span class="phpdocumentor-signature__argument__return-type">object</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>CyberSource gateway</p>
-</section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool|string</span>
-            &mdash;
-            <section class="phpdocumentor-description"><ul>
-<li>true (valid) or failed message (logged)</li>
-</ul>
-</section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_initialize">
         initialize()
-        <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_initialize" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_initialize" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-order-processing-order-validation-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php">order_validation.extension.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php">kinsta.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">142</span>
+    <span class="phpdocumentor-element-found-in__line">226</span>
 
     </aside>
 
@@ -698,22 +613,96 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_save_transient">
-        save_transient()
-        <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_save_transient" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_kinsta_api_request">
+        kinsta_api_request()
+        <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_api_request" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-order-processing-order-validation-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php">order_validation.extension.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php">kinsta.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">387</span>
+    <span class="phpdocumentor-element-found-in__line">375</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Save our transient on exit</p>
+        <p class="phpdocumentor-summary">remote api request</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">save_transient</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">kinsta_api_request</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$method</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$endpoint</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$payload</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool|int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cache</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">object</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$method</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>get|post</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$endpoint</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>uri</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$payload</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>[key=&gt;value,...]</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cache</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool|int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>enable caching|ttl</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">object</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>info object or update object</p>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_kinsta_clear_cache">
+        kinsta_clear_cache()
+        <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_clear_cache" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php">kinsta.extension.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">305</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Kinsta clear cache</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">kinsta_clear_cache</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
     
@@ -731,22 +720,88 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_set_shop_visit">
-        set_shop_visit()
-        <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#method_set_shop_visit" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_kinsta_clear_edge_cache">
+        kinsta_clear_edge_cache()
+        <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_clear_edge_cache" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-order-processing-order-validation-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/order_processing/order_validation.extension.php">order_validation.extension.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php">kinsta.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">190</span>
+    <span class="phpdocumentor-element-found-in__line">328</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Set shop visit time when visiting a woocommerce page to ensure visit prior to checkout</p>
+        <p class="phpdocumentor-summary">Kinsta clear edge cache</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">set_shop_visit</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">kinsta_clear_edge_cache</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_kinsta_download">
+        kinsta_download()
+        <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_download" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php">kinsta.extension.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">265</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Kinsta download sites/environments</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">kinsta_download</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_kinsta_last_operation">
+        kinsta_last_operation()
+        <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_last_operation" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta.extension.php">kinsta.extension.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">353</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Kinsta check last operation</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">kinsta_last_operation</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
     
@@ -836,7 +891,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/AmericanTelecastProducts-Extensions-order-validation.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

@@ -7,14 +7,14 @@
 
 Plugin URI:             https://earthasylum.github.io/docs.atpCustom/  
 Author:                 [EarthAsylum Consulting](https://www.earthasylum.com)  
-Stable tag:             4.2.8  
-Last Updated:           04-Apr-2024  
-Requires at least:      5.5.0  
+Stable tag:             4.2.10-RC1+May08  
+Last Updated:           08-May-2024  
+Requires at least:      5.8  
 Tested up to:           6.5  
-WC requires at least:   5.2  
-WC tested up to:        8.7  
-Requires EAC:           2.3  
-Requires PHP:           7.2  
+WC requires at least:   7.0  
+WC tested up to:        8.8  
+Requires EAC:           2.5  
+Requires PHP:           7.4  
 Contributors:           [earthasylum](https://github.com/earthasylum),[kevinburkholder](https://profiles.wordpress.org/kevinburkholder)  
 License:                Proprietary  
 GitHub URI:             https://github.com/EarthAsylum/atpCustom  
