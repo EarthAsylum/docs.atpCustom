@@ -28,14 +28,6 @@ GitHub URI:             https://github.com/EarthAsylum/atpCustom
 **American Telecast Products plugin & extensions**
 
 Adds WooCommerce customization, Cybersource gateway + NetSuite integration, Tealium, Bazaarvoice, Nuance chat, Facebook & Snapchat conversion, Kinsta API + more
-
-
-#### Links
-
-[Github Docs Page](https://github.com/EarthAsylum/docs.atpCustom)
-
-[PHP Reference](https://earthasylum.github.io/docs.atpCustom/)
-
     
 #### Included Extensions
 
@@ -178,5 +170,21 @@ On deactivation, the plugin makes no changes to the system but will not be loade
 #### Uninstall
 
 When uninstalled, the plugin will delete custom tables, settings, and transient data based on the options selected in the general settings. If settings have been backed up, the backup is retained and can be restored if/when re-installed. Tables are not backed up.
+
+
+### Other Notes
+
+_atpCustom_ is an [{eac}Doojigger](https://eacDoojigger.earthasylum.com/) derivative and requires installation, activation, and registration of the {eac}Doojigger plugin.
+
+#### Links
+
+[Github Docs Page](https://github.com/EarthAsylum/docs.atpCustom)
+
+[PHP Reference](https://earthasylum.github.io/docs.atpCustom/)
+
+
+### Upgrade Notice
+
+Requires {eac}Doojigger version 2.5+
 
 
