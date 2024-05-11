@@ -7,8 +7,8 @@
 
 Plugin URI:             https://earthasylum.github.io/docs.atpCustom/  
 Author:                 [EarthAsylum Consulting](https://www.earthasylum.com)  
-Stable tag:             4.2.10-RC1+May08  
-Last Updated:           08-May-2024  
+Stable tag:             4.2.10-RC1+May10  
+Last Updated:           10-May-2024  
 Requires at least:      5.8  
 Tested up to:           6.5  
 WC requires at least:   7.0  
@@ -29,9 +29,14 @@ GitHub URI:             https://github.com/EarthAsylum/atpCustom
 
 Adds WooCommerce customization, Cybersource gateway + NetSuite integration, Tealium, Bazaarvoice, Nuance chat, Facebook & Snapchat conversion, Kinsta API + more
 
+#### Links
+
+    [Github Docs Page](https://github.com/EarthAsylum/docs.atpCustom)
+    [PHP Reference](https://earthasylum.github.io/docs.atpCustom/)
+    
 #### Included Extensions
 
-Genersl / Tools
+General / Tools
 
     ajaxAction.extension.php
     admin_tools.extension.php
