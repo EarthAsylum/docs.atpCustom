@@ -31,8 +31,8 @@ Adds WooCommerce customization, Cybersource gateway + NetSuite integration, Teal
 
 #### Links
 
-    [Github Docs Page](https://github.com/EarthAsylum/docs.atpCustom)
-    [PHP Reference](https://earthasylum.github.io/docs.atpCustom/)
+[Github Docs Page](https://github.com/EarthAsylum/docs.atpCustom)
+[PHP Reference](https://earthasylum.github.io/docs.atpCustom/)
     
 #### Included Extensions
 
