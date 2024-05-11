@@ -29,10 +29,13 @@ GitHub URI:             https://github.com/EarthAsylum/atpCustom
 
 Adds WooCommerce customization, Cybersource gateway + NetSuite integration, Tealium, Bazaarvoice, Nuance chat, Facebook & Snapchat conversion, Kinsta API + more
 
+
 #### Links
 
 [Github Docs Page](https://github.com/EarthAsylum/docs.atpCustom)
+
 [PHP Reference](https://earthasylum.github.io/docs.atpCustom/)
+
     
 #### Included Extensions
 
