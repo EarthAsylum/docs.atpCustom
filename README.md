@@ -7,13 +7,13 @@
 
 Plugin URI:             https://earthasylum.github.io/docs.atpCustom/  
 Author:                 [EarthAsylum Consulting](https://www.earthasylum.com)  
-Stable tag:             4.2.10-RC1+May10  
-Last Updated:           10-May-2024  
+Stable tag:             4.2.10-RC3+24.0524.1  
+Last Updated:           24-May-2024  
 Requires at least:      5.8  
 Tested up to:           6.5  
 WC requires at least:   7.0  
 WC tested up to:        8.8  
-Requires EAC:           2.5  
+Requires EAC:           2.6  
 Requires PHP:           7.4  
 Contributors:           [earthasylum](https://github.com/earthasylum),[kevinburkholder](https://profiles.wordpress.org/kevinburkholder)  
 License:                Proprietary  
@@ -185,6 +185,6 @@ _atpCustom_ is an [{eac}Doojigger](https://eacDoojigger.earthasylum.com/) deriva
 
 ### Upgrade Notice
 
-Requires {eac}Doojigger version 2.5+
+Requires {eac}Doojigger version 2.6+
 
 
