@@ -376,6 +376,36 @@ Search.appendIndex(
             "summary": "get\u0020offer\u0020template\u0020\u0028filter\u0029.",
             "url": "classes/AmericanTelecastProducts-Extensions-offer-manager-extension.html#method_get_offer_template"
         },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\offer_manager_extension\u003A\u003AgetHomepageTemplate\u0028\u0029",
+            "name": "getHomepageTemplate",
+            "summary": "get\u0020homepage\u0020template",
+            "url": "classes/AmericanTelecastProducts-Extensions-offer-manager-extension.html#method_getHomepageTemplate"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\offer_manager_extension\u003A\u003Aget_homepage_template\u0028\u0029",
+            "name": "get_homepage_template",
+            "summary": "get\u0020homepage\u0020template\u0020\u0028filter\u0029.",
+            "url": "classes/AmericanTelecastProducts-Extensions-offer-manager-extension.html#method_get_homepage_template"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\offer_manager_extension\u003A\u003AloadHomepageTemplate\u0028\u0029",
+            "name": "loadHomepageTemplate",
+            "summary": "load\u0020the\u0020homepage\u0020elementor\u0020template",
+            "url": "classes/AmericanTelecastProducts-Extensions-offer-manager-extension.html#method_loadHomepageTemplate"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\offer_manager_extension\u003A\u003AgetBannerTemplate\u0028\u0029",
+            "name": "getBannerTemplate",
+            "summary": "get\u0020banner\u0020template",
+            "url": "classes/AmericanTelecastProducts-Extensions-offer-manager-extension.html#method_getBannerTemplate"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\offer_manager_extension\u003A\u003Aget_banner_template\u0028\u0029",
+            "name": "get_banner_template",
+            "summary": "get\u0020banner\u0020template\u0020\u0028filter\u0029.",
+            "url": "classes/AmericanTelecastProducts-Extensions-offer-manager-extension.html#method_get_banner_template"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\offer_manager_extension\u003A\u003AloadBannerTemplate\u0028\u0029",
+            "name": "loadBannerTemplate",
+            "summary": "load\u0020the\u0020banner\u0020elementor\u0020template",
+            "url": "classes/AmericanTelecastProducts-Extensions-offer-manager-extension.html#method_loadBannerTemplate"
+        },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\offer_manager_extension\u003A\u003Aoffer_debugging\u0028\u0029",
             "name": "offer_debugging",
             "summary": "Get\u0020the\u0020offer\u0020array\u0020for\u0020debugging",
@@ -700,6 +730,11 @@ Search.appendIndex(
             "name": "sourcing_debugging",
             "summary": "Get\u0020the\u0020sourcing\u0020array\u0020for\u0020debugging",
             "url": "classes/AmericanTelecastProducts-Extensions-sourcing-extension.html#method_sourcing_debugging"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\sourcing_extension\u003A\u003Asourcing_styles\u0028\u0029",
+            "name": "sourcing_styles",
+            "summary": "output\u0020source\u0020specific\u0020styles",
+            "url": "classes/AmericanTelecastProducts-Extensions-sourcing-extension.html#method_sourcing_styles"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\sourcing_extension\u003A\u003AVERSION",
             "name": "VERSION",
@@ -1371,6 +1406,11 @@ Search.appendIndex(
             "summary": "After\u0020order\u0020totals,\u0020display\u0020payment\u0020breakdown\u0020\u0028woocommerce_cart_totals_after_order_total\u0020woocommerce_review_order_after_order_total\u0029",
             "url": "classes/AmericanTelecastProducts-Extensions-cart-extension.html#method_cart_checkout_order_total"
         },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\cart_extension\u003A\u003Aconfirmation_order_total\u0028\u0029",
+            "name": "confirmation_order_total",
+            "summary": "After\u0020order\u0020totals,\u0020display\u0020first\u0020and\u0020future\u0020payment\u0020breakdown\u0020\u0028woocommerce_get_order_item_totals\u0029",
+            "url": "classes/AmericanTelecastProducts-Extensions-cart-extension.html#method_confirmation_order_total"
+        },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\cart_extension\u003A\u003Acart_checkout_item_detail\u0028\u0029",
             "name": "cart_checkout_item_detail",
             "summary": "Set\u0020the\u0020item\u0020payment\u0020plan\u0020details\u0020on\u0020cart\/checkout\u0020\u0028woocommerce_get_item_data\u0029",
@@ -1475,6 +1515,11 @@ Search.appendIndex(
             "name": "remove_from_cart",
             "summary": "Before\u0020removing\u0020from\u0020cart\u0020\u0028woocommerce_remove_cart_item\u0029",
             "url": "classes/AmericanTelecastProducts-Extensions-cart-extension.html#method_remove_from_cart"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\cart_extension\u003A\u003Acart_item_price\u0028\u0029",
+            "name": "cart_item_price",
+            "summary": "Get\u0020an\u0020item\u0020price\u0020from\u0020the\u0020cart\u0020\u0028woocommerce_cart_item_price\u0029",
+            "url": "classes/AmericanTelecastProducts-Extensions-cart-extension.html#method_cart_item_price"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\cart_extension\u003A\u003Aapplied_coupon\u0028\u0029",
             "name": "applied_coupon",
