@@ -192,7 +192,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2024 American Telecast Products</p>
+                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2025 American Telecast Products</p>
 </section>
 
                                     </dd>
@@ -200,7 +200,7 @@
                     <span class="phpdocumentor-tag__name">version</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                            <span class="phpdocumentor-tag-link">24.0524.1</span>
+                                            <span class="phpdocumentor-tag-link">25.0331.1</span>
                                                                                 
                                              
                                     </dd>
@@ -269,6 +269,13 @@
                                 &nbsp;: void    </span>
 </dt>
 <dd>factory/constructor method</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_add_product_schema">add_product_schema()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>augment woocommerce structured data for google merchant</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_addActionsAndFilters">addActionsAndFilters()</a>
@@ -343,6 +350,13 @@ Called after instantiating, loading extensions and initializing</dd>
 <dd>Calculates and extends the WC Cart</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_getlocationByIP">getlocationByIP()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Get location by IP address</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_getOrder">getOrder()</a>
     <span>
                                 &nbsp;: <abbr title="\AmericanTelecastProducts\Plugin\order">order</abbr>    </span>
@@ -385,13 +399,6 @@ Called after instantiating, loading extensions and initializing</dd>
 <dd>page header</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_save_post_shop_order">save_post_shop_order()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>when an order is created, update post meta values (save_post_shop_order)</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_set_admin_bar_menu">set_admin_bar_menu()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -410,7 +417,14 @@ Called after instantiating, loading extensions and initializing</dd>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>Called after all plugins are loaded and wordpress is ready</dd>
+<dd>Called after all plugins are loaded and wordpress is ready (init)</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_wordpress_ready">wordpress_ready()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Called when WordPress is fully loaded</dd>
 
         </dl>
 
@@ -602,6 +616,58 @@ Called after instantiating, loading extensions and initializing</dd>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_add_product_schema">
+        add_product_schema()
+        <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_add_product_schema" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">917</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">augment woocommerce structured data for google merchant</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">add_product_schema</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$markup</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$product</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$markup</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$product</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_addActionsAndFilters">
         addActionsAndFilters()
         <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_addActionsAndFilters" class="headerlink"><i class="fas fa-link"></i></a>
@@ -657,7 +723,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">193</span>
+    <span class="phpdocumentor-element-found-in__line">174</span>
 
     </aside>
 
@@ -705,7 +771,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">373</span>
+    <span class="phpdocumentor-element-found-in__line">366</span>
 
     </aside>
 
@@ -757,7 +823,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">847</span>
+    <span class="phpdocumentor-element-found-in__line">1085</span>
 
     </aside>
 
@@ -809,7 +875,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">553</span>
+    <span class="phpdocumentor-element-found-in__line">697</span>
 
     </aside>
 
@@ -842,7 +908,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">809</span>
+    <span class="phpdocumentor-element-found-in__line">1047</span>
 
     </aside>
 
@@ -903,7 +969,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">924</span>
+    <span class="phpdocumentor-element-found-in__line">1163</span>
 
     </aside>
 
@@ -981,7 +1047,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">388</span>
+    <span class="phpdocumentor-element-found-in__line">479</span>
 
     </aside>
 
@@ -1014,7 +1080,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">206</span>
+    <span class="phpdocumentor-element-found-in__line">187</span>
 
     </aside>
 
@@ -1059,7 +1125,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">842</span>
+    <span class="phpdocumentor-element-found-in__line">1080</span>
 
     </aside>
 
@@ -1108,6 +1174,39 @@ Called after instantiating, loading extensions and initializing</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getlocationByIP">
+        getlocationByIP()
+        <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_getlocationByIP" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">443</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get location by IP address</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getlocationByIP</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getOrder">
         getOrder()
         <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_getOrder" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1115,7 +1214,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">861</span>
+    <span class="phpdocumentor-element-found-in__line">1099</span>
 
     </aside>
 
@@ -1171,7 +1270,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">784</span>
+    <span class="phpdocumentor-element-found-in__line">1022</span>
 
     </aside>
 
@@ -1252,7 +1351,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">877</span>
+    <span class="phpdocumentor-element-found-in__line">1115</span>
 
     </aside>
 
@@ -1304,7 +1403,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">688</span>
+    <span class="phpdocumentor-element-found-in__line">908</span>
 
     </aside>
 
@@ -1337,7 +1436,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">678</span>
+    <span class="phpdocumentor-element-found-in__line">824</span>
 
     </aside>
 
@@ -1363,60 +1462,6 @@ Called after instantiating, loading extensions and initializing</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_save_post_shop_order">
-        save_post_shop_order()
-        <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_save_post_shop_order" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">943</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">when an order is created, update post meta values (save_post_shop_order)</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">save_post_shop_order</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$order</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$update</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$order</span>
-                : <span class="phpdocumentor-signature__argument__return-type">object</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>WC_Order or order id</p>
-</section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$update</span>
-                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>true if updating order</p>
-</section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_set_admin_bar_menu">
         set_admin_bar_menu()
         <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_set_admin_bar_menu" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1424,7 +1469,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">235</span>
+    <span class="phpdocumentor-element-found-in__line">216</span>
 
     </aside>
 
@@ -1469,7 +1514,7 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">897</span>
+    <span class="phpdocumentor-element-found-in__line">1136</span>
 
     </aside>
 
@@ -1514,11 +1559,11 @@ Called after instantiating, loading extensions and initializing</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">335</span>
+    <span class="phpdocumentor-element-found-in__line">316</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Called after all plugins are loaded and wordpress is ready</p>
+        <p class="phpdocumentor-summary">Called after all plugins are loaded and wordpress is ready (init)</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -1537,6 +1582,39 @@ Called after instantiating, loading extensions and initializing</p>
             </dd>
             </dl>
 
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_wordpress_ready">
+        wordpress_ready()
+        <a href="classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_wordpress_ready" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php"><a href="files/atpcustom-americantelecastproducts-plugin-atpcustom-plugin.html"><abbr title="atpCustom/AmericanTelecastProducts/Plugin/atpCustom.plugin.php">atpCustom.plugin.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">396</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Called when WordPress is fully loaded</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">wordpress_ready</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+    
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>

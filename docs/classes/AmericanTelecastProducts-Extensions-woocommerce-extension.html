@@ -153,7 +153,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -189,17 +189,9 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2022 American Telecast Products</p>
+                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2024 American Telecast Products</p>
 </section>
 
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">version</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                            <span class="phpdocumentor-tag-link">4.x</span>
-                                                                                
-                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">see</span>
@@ -240,9 +232,16 @@
 
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/AmericanTelecastProducts-Extensions-woocommerce-extension.html#constant_TAB_NAME">TAB_NAME</a>
+    <span>
+        &nbsp;= &#039;WooCommerce&#039;                            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a href="classes/AmericanTelecastProducts-Extensions-woocommerce-extension.html#constant_VERSION">VERSION</a>
     <span>
-        &nbsp;= &#039;23.0725.1&#039;                            </span>
+        &nbsp;= &#039;24.1210.1&#039;                            </span>
 </dt>
 <dd></dd>
 
@@ -273,6 +272,13 @@
                                 &nbsp;: void    </span>
 </dt>
 <dd>initialize method - called from main plugin</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AmericanTelecastProducts-Extensions-woocommerce-extension.html#method_save_post_shop_order">save_post_shop_order()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>when an order is created, update post meta values (save_post_shop_order)</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AmericanTelecastProducts-Extensions-woocommerce-extension.html#method_validate_checkout_nonce">validate_checkout_nonce()</a>
@@ -355,6 +361,35 @@
             <a href="classes/AmericanTelecastProducts-Extensions-woocommerce-extension.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TAB_NAME">
+        TAB_NAME
+        <a href="classes/AmericanTelecastProducts-Extensions-woocommerce-extension.html#constant_TAB_NAME" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">27</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">TAB_NAME</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;WooCommerce&#039;</span>
+</code>
+
+
+    
+        <section class="phpdocumentor-description"><p>extension tab name</p>
+</section>
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
     <h4 class="phpdocumentor-element__name" id="constant_VERSION">
         VERSION
         <a href="classes/AmericanTelecastProducts-Extensions-woocommerce-extension.html#constant_VERSION" class="headerlink"><i class="fas fa-link"></i></a>
@@ -363,7 +398,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
@@ -372,7 +407,7 @@
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">VERSION</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;23.0725.1&#039;</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;24.1210.1&#039;</span>
 </code>
 
 
@@ -405,7 +440,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
@@ -450,7 +485,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">136</span>
+    <span class="phpdocumentor-element-found-in__line">154</span>
 
     </aside>
 
@@ -483,7 +518,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">76</span>
 
     </aside>
 
@@ -531,7 +566,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">125</span>
+    <span class="phpdocumentor-element-found-in__line">143</span>
 
     </aside>
 
@@ -555,6 +590,60 @@
         class="phpdocumentor-element
             -method
             -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_save_post_shop_order">
+        save_post_shop_order()
+        <a href="classes/AmericanTelecastProducts-Extensions-woocommerce-extension.html#method_save_post_shop_order" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">561</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">when an order is created, update post meta values (save_post_shop_order)</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">save_post_shop_order</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$order</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$update</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$order</span>
+                : <span class="phpdocumentor-signature__argument__return-type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>WC_Order or order id</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$update</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>true if updating order</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
             -deprecated                                            "
 >
     <h4 class="phpdocumentor-element__name" id="method_validate_checkout_nonce">
@@ -564,7 +653,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">368</span>
+    <span class="phpdocumentor-element-found-in__line">398</span>
 
     </aside>
 
@@ -614,7 +703,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">208</span>
+    <span class="phpdocumentor-element-found-in__line">238</span>
 
     </aside>
 
@@ -647,7 +736,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">382</span>
+    <span class="phpdocumentor-element-found-in__line">412</span>
 
     </aside>
 
@@ -691,7 +780,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">348</span>
+    <span class="phpdocumentor-element-found-in__line">378</span>
 
     </aside>
 
@@ -753,7 +842,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">496</span>
+    <span class="phpdocumentor-element-found-in__line">532</span>
 
     </aside>
 
@@ -797,7 +886,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">464</span>
+    <span class="phpdocumentor-element-found-in__line">496</span>
 
     </aside>
 
@@ -857,7 +946,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">425</span>
+    <span class="phpdocumentor-element-found-in__line">455</span>
 
     </aside>
 
@@ -901,7 +990,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">483</span>
+    <span class="phpdocumentor-element-found-in__line">516</span>
 
     </aside>
 
@@ -945,7 +1034,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">448</span>
+    <span class="phpdocumentor-element-found-in__line">478</span>
 
     </aside>
 
@@ -999,7 +1088,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-woocommerce-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/woocommerce.extension.php">woocommerce.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">321</span>
+    <span class="phpdocumentor-element-found-in__line">351</span>
 
     </aside>
 

@@ -153,7 +153,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">13</span>
 
     </aside>
 
@@ -167,30 +167,6 @@
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">see</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                    <span class="phpdocumentor-tag-link"><a href="https://knowledge.bazaarvoice.com/wp-content/conversations/en_US/Display/bvseo.html"><abbr title="https://knowledge.bazaarvoice.com/wp-content/conversations/en_US/Display/bvseo.html">https://knowledge.bazaarvoice.com/wp-content/conversations/en_US/Display/bvseo.html</abbr></a></span>
-                                        
-                                             
-                                    </dd>
-                            <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">see</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                    <span class="phpdocumentor-tag-link"><a href="https://knowledge.bazaarvoice.com/wp-content/conversations/en_US/Collect/bvpixel.html"><abbr title="https://knowledge.bazaarvoice.com/wp-content/conversations/en_US/Collect/bvpixel.html">https://knowledge.bazaarvoice.com/wp-content/conversations/en_US/Collect/bvpixel.html</abbr></a></span>
-                                        
-                                             
-                                    </dd>
-                            <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">see</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                    <span class="phpdocumentor-tag-link"><a href="https://eacDoojigger.earthasylum.com/phpdoc/"><abbr title="https://eacDoojigger.earthasylum.com/phpdoc/">https://eacDoojigger.earthasylum.com/phpdoc/</abbr></a></span>
-                                        
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">category</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
@@ -213,34 +189,9 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2024 American Telecast Products</p>
+                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2025 American Telecast Products</p>
 </section>
 
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">version</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                            <span class="phpdocumentor-tag-link">4.x</span>
-                                                                                
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">used-by</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>\EarthAsylumConsulting\abstract_core</p>
-</section>
-
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">uses</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                    <span class="phpdocumentor-tag-link"><abbr title="\EarthAsylumConsulting\abstract_extension">abstract_extension</abbr></span>
-                                        
-                                             
                                     </dd>
                         </dl>
 
@@ -256,9 +207,16 @@
 
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#constant_BV_LOADER">BV_LOADER</a>
+    <span>
+        &nbsp;= &quot;https://apps.bazaarvoice.com/deployments/%s/main_site/%s/en_US/bv.js&quot;                            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#constant_VERSION">VERSION</a>
     <span>
-        &nbsp;= &#039;24.0413.1&#039;                            </span>
+        &nbsp;= &#039;25.0423.1&#039;                            </span>
 </dt>
 <dd></dd>
 
@@ -291,81 +249,18 @@
 <dd>BazaarVoice shortcode callback</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getInlineRatings">getInlineRatings()</a>
+    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_enqueueLoaderScript">enqueueLoaderScript()</a>
     <span>
-                                &nbsp;: string    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd>get the JS inline-ratings code</dd>
+<dd>output the bv.js script tag</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getInlineRatings_action">getInlineRatings_action()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>get the JS inline-ratings code</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getJsQandA">getJsQandA()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>get only the JS review code</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getJsReviews">getJsReviews()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>get only the JS review code</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getLeaderboard">getLeaderboard()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>get the JS Leaderboard code</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getQandA">getQandA()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>get the SEO &amp; JS getQandA code</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getReviews">getReviews()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>get the SEO &amp; JS review code</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getRoiBeacon">getRoiBeacon()</a>
+    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_enqueueTransactionScript">enqueueTransactionScript()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
 <dd>get the confirmation ROI beacon</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getScriptTag">getScriptTag()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>get the bvapi.js script tag</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getSeoQandA">getSeoQandA()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>get the SEO Q and A code</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getSeoReviews">getSeoReviews()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>get only the SEO review code</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_initialize">initialize()</a>
@@ -386,21 +281,7 @@
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>page body end</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_page_script_tag">page_script_tag()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>page head</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_woocommerce_thankyou">woocommerce_thankyou()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>woocommerce_thankyou - confirmation</dd>
+<dd>page footer tag</dd>
 
         </dl>
 
@@ -413,6 +294,36 @@
             <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_BV_LOADER">
+        BV_LOADER
+        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#constant_BV_LOADER" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">24</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">BV_LOADER</span>
+    = <span class="phpdocumentor-signature__default-value">&quot;https://apps.bazaarvoice.com/deployments/%s/main_site/%s/en_US/bv.js&quot;</span>
+</code>
+
+
+    
+        <section class="phpdocumentor-description"><p>BV Loader script url
+https://apps.bazaarvoice.com/deployments/&lt;client_name&gt;/&lt;site_ID&gt;/<environment>/<locale>/bv.js</p>
+</section>
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
     <h4 class="phpdocumentor-element__name" id="constant_VERSION">
         VERSION
         <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#constant_VERSION" class="headerlink"><i class="fas fa-link"></i></a>
@@ -421,7 +332,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -430,7 +341,7 @@
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">VERSION</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;24.0413.1&#039;</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;25.0423.1&#039;</span>
 </code>
 
 
@@ -463,7 +374,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">46</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
     </aside>
 
@@ -508,7 +419,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">129</span>
+    <span class="phpdocumentor-element-found-in__line">112</span>
 
     </aside>
 
@@ -541,7 +452,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">163</span>
+    <span class="phpdocumentor-element-found-in__line">130</span>
 
     </aside>
 
@@ -590,7 +501,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">195</span>
+    <span class="phpdocumentor-element-found-in__line">162</span>
 
     </aside>
 
@@ -643,49 +554,31 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getInlineRatings">
-        getInlineRatings()
-        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getInlineRatings" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_enqueueLoaderScript">
+        enqueueLoaderScript()
+        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_enqueueLoaderScript" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">478</span>
+    <span class="phpdocumentor-element-found-in__line">287</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">get the JS inline-ratings code</p>
+        <p class="phpdocumentor-summary">output the bv.js script tag</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getInlineRatings</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string|array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$products</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">enqueueLoaderScript</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$products</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string|array&lt;string|int, mixed&gt;</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><ul>
-<li>the product code(s) of this products page (defaults to $this-&gt;defaults['product_id'])</li>
-</ul>
-</section>
-
-            </dd>
-            </dl>
-
+    
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"><ul>
-<li>the JavaScript inline-ratings output</li>
-</ul>
-</section>
-
+        
     
 </article>
                     <article
@@ -694,306 +587,14 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getInlineRatings_action">
-        getInlineRatings_action()
-        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getInlineRatings_action" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_enqueueTransactionScript">
+        enqueueTransactionScript()
+        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_enqueueTransactionScript" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">326</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">get the JS inline-ratings code</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getInlineRatings_action</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string|array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$products</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$products</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string|array&lt;string|int, mixed&gt;</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><ul>
-<li>the product code(s) of this products page (defaults to $this-&gt;defaults['product_id'])</li>
-</ul>
-</section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"><ul>
-<li>the JavaScript inline-ratings output</li>
-</ul>
-</section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getJsQandA">
-        getJsQandA()
-        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getJsQandA" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">456</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">get only the JS review code</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getJsQandA</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$show</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$show</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><ul>
-<li>the name of a JavaScript callback function</li>
-</ul>
-</section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"><ul>
-<li>the JavaScript review output</li>
-</ul>
-</section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getJsReviews">
-        getJsReviews()
-        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getJsReviews" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">403</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">get only the JS review code</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getJsReviews</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$show</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$show</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><ul>
-<li>the name of a JavaScript callback function</li>
-</ul>
-</section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"><ul>
-<li>the JavaScript review output</li>
-</ul>
-</section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getLeaderboard">
-        getLeaderboard()
-        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getLeaderboard" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">500</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">get the JS Leaderboard code</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getLeaderboard</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"><ul>
-<li>the JavaScript Leaderboard output</li>
-</ul>
-</section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getQandA">
-        getQandA()
-        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getQandA" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">423</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">get the SEO &amp; JS getQandA code</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getQandA</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$show</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$show</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><ul>
-<li>the name of a JavaScript callback function</li>
-</ul>
-</section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"><ul>
-<li>the SEO and JavaScript review output</li>
-</ul>
-</section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getReviews">
-        getReviews()
-        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getReviews" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">364</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">get the SEO &amp; JS review code</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getReviews</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$show</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$show</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><ul>
-<li>the name of a JavaScript callback function</li>
-</ul>
-</section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"><ul>
-<li>the SEO and JavaScript review output</li>
-</ul>
-</section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getRoiBeacon">
-        getRoiBeacon()
-        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getRoiBeacon" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">519</span>
+    <span class="phpdocumentor-element-found-in__line">307</span>
 
     </aside>
 
@@ -1001,7 +602,7 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getRoiBeacon</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$order</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">enqueueTransactionScript</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$order</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -1034,153 +635,6 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getScriptTag">
-        getScriptTag()
-        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getScriptTag" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">342</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">get the bvapi.js script tag</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getScriptTag</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$product</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$zone</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$client</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$product</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><ul>
-<li>the product code of this product page (defaults to $this-&gt;defaults['product_id'])</li>
-</ul>
-</section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$zone</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><ul>
-<li>the deployment zone of this product page (defaults to $this-&gt;defaults['deployment_zone_id'])</li>
-</ul>
-</section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$client</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><ul>
-<li>the client name as used by BazaarVoice (defaults to $this-&gt;clientName set in constructor)</li>
-</ul>
-</section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"><ul>
-<li>the script tag(s)</li>
-</ul>
-</section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getSeoQandA">
-        getSeoQandA()
-        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getSeoQandA" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">438</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">get the SEO Q and A code</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getSeoQandA</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"><ul>
-<li>the SEO Q and A output</li>
-</ul>
-</section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getSeoReviews">
-        getSeoReviews()
-        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getSeoReviews" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">379</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">get only the SEO review code</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getSeoReviews</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"><ul>
-<li>the SEO review output</li>
-</ul>
-</section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_initialize">
         initialize()
         <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_initialize" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1188,7 +642,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">93</span>
+    <span class="phpdocumentor-element-found-in__line">96</span>
 
     </aside>
 
@@ -1221,7 +675,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">249</span>
+    <span class="phpdocumentor-element-found-in__line">224</span>
 
     </aside>
 
@@ -1254,11 +708,11 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">277</span>
+    <span class="phpdocumentor-element-found-in__line">256</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">page body end</p>
+        <p class="phpdocumentor-summary">page footer tag</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -1270,83 +724,6 @@
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_page_script_tag">
-        page_script_tag()
-        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_page_script_tag" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">236</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">page head</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">page_script_tag</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_woocommerce_thankyou">
-        woocommerce_thankyou()
-        <a href="classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_woocommerce_thankyou" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-tracking-bazaarvoice-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/tracking/bazaarvoice.extension.php">bazaarvoice.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">311</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">woocommerce_thankyou - confirmation</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">woocommerce_thankyou</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$orderId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$orderId</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
         
     

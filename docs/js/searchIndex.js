@@ -111,10 +111,10 @@ Search.appendIndex(
             "summary": "register\u0020options\u0020on\u0020options_settings_page",
             "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_admin_options_settings"
         },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003Aadmin_options_settings_cache\u0028\u0029",
-            "name": "admin_options_settings_cache",
-            "summary": "register\u0020cache\u0020options\u0020on\u0020options_settings_page",
-            "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_admin_options_settings_cache"
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003Aadmin_options_settings_export\u0028\u0029",
+            "name": "admin_options_settings_export",
+            "summary": "register\u0020export\u0020option\u0020on\u0020options_settings_page",
+            "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_admin_options_settings_export"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003Ainitialize\u0028\u0029",
             "name": "initialize",
@@ -126,40 +126,35 @@ Search.appendIndex(
             "summary": "Add\u0020filters\u0020and\u0020actions\u0020\u002D\u0020called\u0020from\u0020main\u0020plugin",
             "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_addActionsAndFilters"
         },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003Akinsta_download\u0028\u0029",
-            "name": "kinsta_download",
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003Aform_validate_apikey\u0028\u0029",
+            "name": "form_validate_apikey",
+            "summary": "Kinsta\u0020get\u0020company\u0020from\u0020api\u0020key\u0020\u0028validate\u0020kinsta_api_key\u0029",
+            "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_form_validate_apikey"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003Aform_download_sites\u0028\u0029",
+            "name": "form_download_sites",
             "summary": "Kinsta\u0020download\u0020sites\/environments",
-            "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_download"
+            "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_form_download_sites"
         },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003Akinsta_clear_cache\u0028\u0029",
-            "name": "kinsta_clear_cache",
-            "summary": "Kinsta\u0020clear\u0020cache",
-            "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_clear_cache"
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003Acheck_last_operation\u0028\u0029",
+            "name": "check_last_operation",
+            "summary": "check\u0020last\u0020operation\u0028s\u0029",
+            "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_check_last_operation"
         },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003Akinsta_clear_edge_cache\u0028\u0029",
-            "name": "kinsta_clear_edge_cache",
-            "summary": "Kinsta\u0020clear\u0020edge\u0020cache",
-            "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_clear_edge_cache"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003Akinsta_last_operation\u0028\u0029",
-            "name": "kinsta_last_operation",
-            "summary": "Kinsta\u0020check\u0020last\u0020operation",
-            "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_last_operation"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003Akinsta_api_request\u0028\u0029",
-            "name": "kinsta_api_request",
-            "summary": "remote\u0020api\u0020request",
-            "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_kinsta_api_request"
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003Aclear_all_caches\u0028\u0029",
+            "name": "clear_all_caches",
+            "summary": "Kinsta\u0020clear\u0020all\u0020\u0028site\u0020\u0026\u0020edge\u0029\u0020caches",
+            "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#method_clear_all_caches"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003AVERSION",
             "name": "VERSION",
             "summary": "",
             "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#constant_VERSION"
         },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003AKINSTA_URL",
-            "name": "KINSTA_URL",
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\kinsta_extension\u003A\u003AKINSTA_LOCAL",
+            "name": "KINSTA_LOCAL",
             "summary": "",
-            "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#constant_KINSTA_URL"
+            "url": "classes/AmericanTelecastProducts-Extensions-kinsta-extension.html#constant_KINSTA_LOCAL"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\nuance_chat_extension",
             "name": "nuance_chat_extension",
@@ -420,6 +415,16 @@ Search.appendIndex(
             "name": "VERSION",
             "summary": "",
             "url": "classes/AmericanTelecastProducts-Extensions-offer-manager-extension.html#constant_VERSION"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\offer_manager_extension\u003A\u003AALIAS",
+            "name": "ALIAS",
+            "summary": "",
+            "url": "classes/AmericanTelecastProducts-Extensions-offer-manager-extension.html#constant_ALIAS"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\offer_manager_extension\u003A\u003A\u0024offerArray",
+            "name": "offerArray",
+            "summary": "",
+            "url": "classes/AmericanTelecastProducts-Extensions-offer-manager-extension.html#property_offerArray"
         },                {
             "fqsen": "\\ATP_OFFER_TAXONOMY",
             "name": "ATP_OFFER_TAXONOMY",
@@ -690,16 +695,6 @@ Search.appendIndex(
             "name": "doSourcing",
             "summary": "doSourcing\u0020\u002D\u0020setup\u0020and\u0020assign\u0020sourcing\u0020\u002D\u0020executed\u0020on\u0020page\u0020load",
             "url": "classes/AmericanTelecastProducts-Extensions-sourcing-extension.html#method_doSourcing"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\sourcing_extension\u003A\u003AgetSourcingFiles\u0028\u0029",
-            "name": "getSourcingFiles",
-            "summary": "get\u0020an\u0020array\u0020of\u0020available\u0020sourcing\u0020files",
-            "url": "classes/AmericanTelecastProducts-Extensions-sourcing-extension.html#method_getSourcingFiles"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\sourcing_extension\u003A\u003AloadSourcingFile\u0028\u0029",
-            "name": "loadSourcingFile",
-            "summary": "load\u0020the\u0020sourcing\u0020array\u0028s\u0029",
-            "url": "classes/AmericanTelecastProducts-Extensions-sourcing-extension.html#method_loadSourcingFile"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\sourcing_extension\u003A\u003AgetSourcing\u0028\u0029",
             "name": "getSourcing",
@@ -1041,11 +1036,6 @@ Search.appendIndex(
             "summary": "BazaarVoice\u0020shortcode\u0020callback",
             "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_bvDivCallback"
         },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003Apage_script_tag\u0028\u0029",
-            "name": "page_script_tag",
-            "summary": "page\u0020head",
-            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_page_script_tag"
-        },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003Apage_content_tag\u0028\u0029",
             "name": "page_content_tag",
             "summary": "page\u0020body\u0020top",
@@ -1053,73 +1043,28 @@ Search.appendIndex(
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003Apage_footer_tag\u0028\u0029",
             "name": "page_footer_tag",
-            "summary": "page\u0020body\u0020end",
+            "summary": "page\u0020footer\u0020tag",
             "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_page_footer_tag"
         },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003Awoocommerce_thankyou\u0028\u0029",
-            "name": "woocommerce_thankyou",
-            "summary": "woocommerce_thankyou\u0020\u002D\u0020confirmation",
-            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_woocommerce_thankyou"
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AenqueueLoaderScript\u0028\u0029",
+            "name": "enqueueLoaderScript",
+            "summary": "output\u0020the\u0020bv.js\u0020script\u0020tag",
+            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_enqueueLoaderScript"
         },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AgetInlineRatings_action\u0028\u0029",
-            "name": "getInlineRatings_action",
-            "summary": "get\u0020the\u0020JS\u0020inline\u002Dratings\u0020code",
-            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getInlineRatings_action"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AgetScriptTag\u0028\u0029",
-            "name": "getScriptTag",
-            "summary": "get\u0020the\u0020bvapi.js\u0020script\u0020tag",
-            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getScriptTag"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AgetReviews\u0028\u0029",
-            "name": "getReviews",
-            "summary": "get\u0020the\u0020SEO\u0020\u0026\u0020JS\u0020review\u0020code",
-            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getReviews"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AgetSeoReviews\u0028\u0029",
-            "name": "getSeoReviews",
-            "summary": "get\u0020only\u0020the\u0020SEO\u0020review\u0020code",
-            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getSeoReviews"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AgetJsReviews\u0028\u0029",
-            "name": "getJsReviews",
-            "summary": "get\u0020only\u0020the\u0020JS\u0020review\u0020code",
-            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getJsReviews"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AgetQandA\u0028\u0029",
-            "name": "getQandA",
-            "summary": "get\u0020the\u0020SEO\u0020\u0026\u0020JS\u0020getQandA\u0020code",
-            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getQandA"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AgetSeoQandA\u0028\u0029",
-            "name": "getSeoQandA",
-            "summary": "get\u0020the\u0020SEO\u0020Q\u0020and\u0020A\u0020code",
-            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getSeoQandA"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AgetJsQandA\u0028\u0029",
-            "name": "getJsQandA",
-            "summary": "get\u0020only\u0020the\u0020JS\u0020review\u0020code",
-            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getJsQandA"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AgetInlineRatings\u0028\u0029",
-            "name": "getInlineRatings",
-            "summary": "get\u0020the\u0020JS\u0020inline\u002Dratings\u0020code",
-            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getInlineRatings"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AgetLeaderboard\u0028\u0029",
-            "name": "getLeaderboard",
-            "summary": "get\u0020the\u0020JS\u0020Leaderboard\u0020code",
-            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getLeaderboard"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AgetRoiBeacon\u0028\u0029",
-            "name": "getRoiBeacon",
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AenqueueTransactionScript\u0028\u0029",
+            "name": "enqueueTransactionScript",
             "summary": "get\u0020the\u0020confirmation\u0020ROI\u0020beacon",
-            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_getRoiBeacon"
+            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#method_enqueueTransactionScript"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003AVERSION",
             "name": "VERSION",
             "summary": "",
             "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#constant_VERSION"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\bazaarvoice_extension\u003A\u003ABV_LOADER",
+            "name": "BV_LOADER",
+            "summary": "",
+            "url": "classes/AmericanTelecastProducts-Extensions-bazaarvoice-extension.html#constant_BV_LOADER"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\facebook_extension",
             "name": "facebook_extension",
@@ -1291,15 +1236,15 @@ Search.appendIndex(
             "summary": "Add\u0020filters\u0020and\u0020actions\u0020\u002D\u0020called\u0020from\u0020main\u0020plugin",
             "url": "classes/AmericanTelecastProducts-Extensions-tealium-extension.html#method_addActionsAndFilters"
         },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\tealium_extension\u003A\u003Apage_head_end\u0028\u0029",
-            "name": "page_head_end",
-            "summary": "page\u0020head",
-            "url": "classes/AmericanTelecastProducts-Extensions-tealium-extension.html#method_page_head_end"
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\tealium_extension\u003A\u003Aoutput_utag_data\u0028\u0029",
+            "name": "output_utag_data",
+            "summary": "the\u0020tealium\u0020data\u0020loader",
+            "url": "classes/AmericanTelecastProducts-Extensions-tealium-extension.html#method_output_utag_data"
         },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\tealium_extension\u003A\u003Apage_body_end\u0028\u0029",
-            "name": "page_body_end",
-            "summary": "page\u0020body\u0020end",
-            "url": "classes/AmericanTelecastProducts-Extensions-tealium-extension.html#method_page_body_end"
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\tealium_extension\u003A\u003Aoutput_utag_script\u0028\u0029",
+            "name": "output_utag_script",
+            "summary": "yhe\u0020tealium\u0020script\u0020loader",
+            "url": "classes/AmericanTelecastProducts-Extensions-tealium-extension.html#method_output_utag_script"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\tealium_extension\u003A\u003AutagData\u0028\u0029",
             "name": "utagData",
@@ -1310,11 +1255,6 @@ Search.appendIndex(
             "name": "applyCartData",
             "summary": "Add\u0020WooCommerce\u0020data",
             "url": "classes/AmericanTelecastProducts-Extensions-tealium-extension.html#method_applyCartData"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Extensions\\tealium_extension\u003A\u003AgetScriptTag\u0028\u0029",
-            "name": "getScriptTag",
-            "summary": "get\u0020the\u0020script\u0020tag",
-            "url": "classes/AmericanTelecastProducts-Extensions-tealium-extension.html#method_getScriptTag"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\tealium_extension\u003A\u003AVERSION",
             "name": "VERSION",
@@ -1546,6 +1486,11 @@ Search.appendIndex(
             "summary": "called\u0020after\u0020calculating\u0020cart\u0020totals\u0020and\u0020payment\u0020plans\u0020\u0028woocommerce_after_calculate_totals\u0029",
             "url": "classes/AmericanTelecastProducts-Extensions-cart-extension.html#method_after_calculate_cart_totals"
         },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\cart_extension\u003A\u003Acalculate_cart_totals_coupon\u0028\u0029",
+            "name": "calculate_cart_totals_coupon",
+            "summary": "Add\/remove\u0020auto\u0020coupons\u0020\u0028either\u0020before_calculate_cart_totals\u0020or\u0020after_calculate_cart_totals\u0029",
+            "url": "classes/AmericanTelecastProducts-Extensions-cart-extension.html#method_calculate_cart_totals_coupon"
+        },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\cart_extension\u003A\u003Aget_order_value\u0028\u0029",
             "name": "get_order_value",
             "summary": "get\u0020order\u0020value\u0020either\u0020from\u0020saved\u0020cart\u0020calculation\u0020or\u0020order",
@@ -1615,6 +1560,11 @@ Search.appendIndex(
             "name": "VERSION",
             "summary": "",
             "url": "classes/AmericanTelecastProducts-Extensions-cart-extension.html#constant_VERSION"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\cart_extension\u003A\u003ATAB_NAME",
+            "name": "TAB_NAME",
+            "summary": "",
+            "url": "classes/AmericanTelecastProducts-Extensions-cart-extension.html#constant_TAB_NAME"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\cart_extension\u003A\u003A\u0024wcCart",
             "name": "wcCart",
@@ -1701,10 +1651,20 @@ Search.appendIndex(
             "summary": "woocommerce_thankyou",
             "url": "classes/AmericanTelecastProducts-Extensions-woocommerce-extension.html#method_woo_confirmation"
         },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\woocommerce_extension\u003A\u003Asave_post_shop_order\u0028\u0029",
+            "name": "save_post_shop_order",
+            "summary": "when\u0020an\u0020order\u0020is\u0020created,\u0020update\u0020post\u0020meta\u0020values\u0020\u0028save_post_shop_order\u0029",
+            "url": "classes/AmericanTelecastProducts-Extensions-woocommerce-extension.html#method_save_post_shop_order"
+        },                {
             "fqsen": "\\AmericanTelecastProducts\\Extensions\\woocommerce_extension\u003A\u003AVERSION",
             "name": "VERSION",
             "summary": "",
             "url": "classes/AmericanTelecastProducts-Extensions-woocommerce-extension.html#constant_VERSION"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Extensions\\woocommerce_extension\u003A\u003ATAB_NAME",
+            "name": "TAB_NAME",
+            "summary": "",
+            "url": "classes/AmericanTelecastProducts-Extensions-woocommerce-extension.html#constant_TAB_NAME"
         },                {
             "fqsen": "\\ALLOW_UNFILTERED_UPLOADS",
             "name": "ALLOW_UNFILTERED_UPLOADS",
@@ -1848,13 +1808,23 @@ Search.appendIndex(
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Plugin\\atpCustom\u003A\u003Awordpress_init\u0028\u0029",
             "name": "wordpress_init",
-            "summary": "Called\u0020after\u0020all\u0020plugins\u0020are\u0020loaded\u0020and\u0020wordpress\u0020is\u0020ready",
+            "summary": "Called\u0020after\u0020all\u0020plugins\u0020are\u0020loaded\u0020and\u0020wordpress\u0020is\u0020ready\u0020\u0028init\u0029",
             "url": "classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_wordpress_init"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Plugin\\atpCustom\u003A\u003Aatpcustom_query_check\u0028\u0029",
             "name": "atpcustom_query_check",
             "summary": "atpcustom_query_value\u0020\u002D\u0020look\u0020for\u0020specific\u0020query\u0020values\u0020from\u0020\u0024queryValues",
             "url": "classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_atpcustom_query_check"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Plugin\\atpCustom\u003A\u003Awordpress_ready\u0028\u0029",
+            "name": "wordpress_ready",
+            "summary": "Called\u0020when\u0020WordPress\u0020is\u0020fully\u0020loaded",
+            "url": "classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_wordpress_ready"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Plugin\\atpCustom\u003A\u003AgetlocationByIP\u0028\u0029",
+            "name": "getlocationByIP",
+            "summary": "Get\u0020location\u0020by\u0020IP\u0020address",
+            "url": "classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_getlocationByIP"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Plugin\\atpCustom\u003A\u003Aenqueue_scripts\u0028\u0029",
             "name": "enqueue_scripts",
@@ -1875,6 +1845,11 @@ Search.appendIndex(
             "name": "page_footer",
             "summary": "page\u0020footer",
             "url": "classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_page_footer"
+        },                {
+            "fqsen": "\\AmericanTelecastProducts\\Plugin\\atpCustom\u003A\u003Aadd_product_schema\u0028\u0029",
+            "name": "add_product_schema",
+            "summary": "augment\u0020woocommerce\u0020structured\u0020data\u0020for\u0020google\u0020merchant",
+            "url": "classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_add_product_schema"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Plugin\\atpCustom\u003A\u003Agoogle_dataLayer\u0028\u0029",
             "name": "google_dataLayer",
@@ -1915,11 +1890,6 @@ Search.appendIndex(
             "name": "default_product_meta_value",
             "summary": "Retrieve\u0020product\u0020meta\u0020value\u0020for\u0020old\u0020key\u0020with\u0020new\u0020key\u0020\u0028default_post_metadata\u0029",
             "url": "classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_default_product_meta_value"
-        },                {
-            "fqsen": "\\AmericanTelecastProducts\\Plugin\\atpCustom\u003A\u003Asave_post_shop_order\u0028\u0029",
-            "name": "save_post_shop_order",
-            "summary": "when\u0020an\u0020order\u0020is\u0020created,\u0020update\u0020post\u0020meta\u0020values\u0020\u0028save_post_shop_order\u0029",
-            "url": "classes/AmericanTelecastProducts-Plugin-atpCustom.html#method_save_post_shop_order"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\Plugin\\atpCustom\u003A\u003A\u0024companyId",
             "name": "companyId",
@@ -2091,6 +2061,176 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/AmericanTelecastProducts-uninstall-atpCustom.html"
         },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache",
+            "name": "kinsta_cache",
+            "summary": "Kinsta\u0020Cache\u0020API",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache.html"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache\u003A\u003AKINSTA_LOCAL",
+            "name": "KINSTA_LOCAL",
+            "summary": "",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache.html#constant_KINSTA_LOCAL"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache\u003A\u003AKINSTA_REMOTE_URL",
+            "name": "KINSTA_REMOTE_URL",
+            "summary": "",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache.html#constant_KINSTA_REMOTE_URL"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache\u003A\u003AKINSTA_RESULT_LOG",
+            "name": "KINSTA_RESULT_LOG",
+            "summary": "",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache.html#constant_KINSTA_RESULT_LOG"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache\u003A\u003AKINSTA_RESULT_NOTIFY",
+            "name": "KINSTA_RESULT_NOTIFY",
+            "summary": "",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache.html#constant_KINSTA_RESULT_NOTIFY"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache\u003A\u003ATRANSIENT_TTL_GET",
+            "name": "TRANSIENT_TTL_GET",
+            "summary": "",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache.html#constant_TRANSIENT_TTL_GET"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache\u003A\u003ATRANSIENT_TTL_POST",
+            "name": "TRANSIENT_TTL_POST",
+            "summary": "",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache.html#constant_TRANSIENT_TTL_POST"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api",
+            "name": "kinsta_cache_api",
+            "summary": "",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_actions\u0028\u0029",
+            "name": "kinsta_api_actions",
+            "summary": "add\u0020actions\u0020for\u0020cache\u0020methods\nand\u0020alternate\u0020logging",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_actions"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_download_data\u0028\u0029",
+            "name": "kinsta_download_data",
+            "summary": "download\u0020api\u0020sites\/environments\u0020json\u0020data",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_download_data"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_data\u0028\u0029",
+            "name": "kinsta_api_data",
+            "summary": "get\u0020api\u0020sites\/environments\u0020json\u0020data",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_data"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_validate_key\u0028\u0029",
+            "name": "kinsta_api_validate_key",
+            "summary": "validate\u0020api\u0020key\u0020\u0028get\u0020company\u0020id\u0029",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_validate_key"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_get_company_users\u0028\u0029",
+            "name": "kinsta_api_get_company_users",
+            "summary": "get\u0020list\u0020of\u0020company\u0020users",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_get_company_users"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_get_company_sites\u0028\u0029",
+            "name": "kinsta_api_get_company_sites",
+            "summary": "get\u0020list\u0020of\u0020company\u0020sites",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_get_company_sites"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_get_selected_site\u0028\u0029",
+            "name": "kinsta_api_get_selected_site",
+            "summary": "get\u0020site\u0020by\u0020id",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_get_selected_site"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_get_site_environments\u0028\u0029",
+            "name": "kinsta_api_get_site_environments",
+            "summary": "get\u0020site\u0020environments",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_get_site_environments"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_get_selected_environment\u0028\u0029",
+            "name": "kinsta_api_get_selected_environment",
+            "summary": "get\u0020selected\u0020environment",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_get_selected_environment"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_clear_site_cache\u0028\u0029",
+            "name": "kinsta_api_clear_site_cache",
+            "summary": "clear\u0020site\u0020cache",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_clear_site_cache"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_clear_edge_cache\u0028\u0029",
+            "name": "kinsta_api_clear_edge_cache",
+            "summary": "clear\u0020edge\u0020cache",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_clear_edge_cache"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_clear_cdn_cache\u0028\u0029",
+            "name": "kinsta_api_clear_cdn_cache",
+            "summary": "clear\u0020cdn\u0020cache",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_clear_cdn_cache"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_restart_php\u0028\u0029",
+            "name": "kinsta_api_restart_php",
+            "summary": "restart\u0020php",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_restart_php"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_local_request\u0028\u0029",
+            "name": "kinsta_api_local_request",
+            "summary": "local\u0020api\u0020request",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_local_request"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_remote_request\u0028\u0029",
+            "name": "kinsta_api_remote_request",
+            "summary": "remote\u0020api\u0020request",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_remote_request"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_return_result\u0028\u0029",
+            "name": "kinsta_api_return_result",
+            "summary": "Kinsta\u0020return\u0020result",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_return_result"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\kinsta_cache_api\u003A\u003Akinsta_api_check_operation\u0028\u0029",
+            "name": "kinsta_api_check_operation",
+            "summary": "get\u0020the\u0020status\u0020information\u0020of\u0020last\u0020operation\u0028s\u0029",
+            "url": "classes/EarthAsylumConsulting-kinsta-cache-api.html#method_kinsta_api_check_operation"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\Extensions\\stripe_payments",
+            "name": "stripe_payments",
+            "summary": "Extension\u003A\u0020payments_extension\u0020\u002D\u0020WooCommerce\u0020Payments\u0020\u0028excl\u0020Cybersource\u0029\u0020\u002D\u0020ATP\u0020Custom\u0020Plugin\u0020for\u0020WordPress",
+            "url": "classes/EarthAsylumConsulting-Extensions-stripe-payments.html"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\Extensions\\stripe_payments\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "constructor\u0020method",
+            "url": "classes/EarthAsylumConsulting-Extensions-stripe-payments.html#method___construct"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\Extensions\\stripe_payments\u003A\u003Aadmin_options_settings\u0028\u0029",
+            "name": "admin_options_settings",
+            "summary": "register\u0020options\u0020on\u0020options_settings_page",
+            "url": "classes/EarthAsylumConsulting-Extensions-stripe-payments.html#method_admin_options_settings"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\Extensions\\stripe_payments\u003A\u003Aadmin_options_help\u0028\u0029",
+            "name": "admin_options_help",
+            "summary": "Add\u0020help\u0020tab\u0020on\u0020admin\u0020page",
+            "url": "classes/EarthAsylumConsulting-Extensions-stripe-payments.html#method_admin_options_help"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\Extensions\\stripe_payments\u003A\u003Ainitialize\u0028\u0029",
+            "name": "initialize",
+            "summary": "initialize\u0020method\u0020\u002D\u0020called\u0020from\u0020main\u0020plugin",
+            "url": "classes/EarthAsylumConsulting-Extensions-stripe-payments.html#method_initialize"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\Extensions\\stripe_payments\u003A\u003AaddActionsAndFilters\u0028\u0029",
+            "name": "addActionsAndFilters",
+            "summary": "Add\u0020filters\u0020and\u0020actions\u0020\u002D\u0020called\u0020from\u0020main\u0020plugin",
+            "url": "classes/EarthAsylumConsulting-Extensions-stripe-payments.html#method_addActionsAndFilters"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\Extensions\\stripe_payments\u003A\u003Astripe_request\u0028\u0029",
+            "name": "stripe_request",
+            "summary": "Stripe\u0020request\u0020body",
+            "url": "classes/EarthAsylumConsulting-Extensions-stripe-payments.html#method_stripe_request"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\Extensions\\stripe_payments\u003A\u003Astripe_response\u0028\u0029",
+            "name": "stripe_response",
+            "summary": "Stripe\u0020response",
+            "url": "classes/EarthAsylumConsulting-Extensions-stripe-payments.html#method_stripe_response"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\Extensions\\stripe_payments\u003A\u003AVERSION",
+            "name": "VERSION",
+            "summary": "",
+            "url": "classes/EarthAsylumConsulting-Extensions-stripe-payments.html#constant_VERSION"
+        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
@@ -2106,6 +2246,16 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/americantelecastproducts.html"
         },                {
+            "fqsen": "\\EarthAsylumConsulting",
+            "name": "EarthAsylumConsulting",
+            "summary": "",
+            "url": "namespaces/earthasylumconsulting.html"
+        },                {
+            "fqsen": "\\EarthAsylumConsulting\\Extensions",
+            "name": "Extensions",
+            "summary": "",
+            "url": "namespaces/earthasylumconsulting-extensions.html"
+        },                {
             "fqsen": "\\AmericanTelecastProducts\\Plugin",
             "name": "Plugin",
             "summary": "",
@@ -2115,16 +2265,6 @@ Search.appendIndex(
             "name": "Code_Injection",
             "summary": "",
             "url": "namespaces/earthasylumconsulting-extensions-code-injection.html"
-        },                {
-            "fqsen": "\\EarthAsylumConsulting\\Extensions",
-            "name": "Extensions",
-            "summary": "",
-            "url": "namespaces/earthasylumconsulting-extensions.html"
-        },                {
-            "fqsen": "\\EarthAsylumConsulting",
-            "name": "EarthAsylumConsulting",
-            "summary": "",
-            "url": "namespaces/earthasylumconsulting.html"
         },                {
             "fqsen": "\\AmericanTelecastProducts\\uninstall",
             "name": "uninstall",

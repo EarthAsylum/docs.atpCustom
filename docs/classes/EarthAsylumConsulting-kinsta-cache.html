@@ -127,37 +127,28 @@
 
             <div class="phpdocumentor-column -eight phpdocumentor-content">
                     <ul class="phpdocumentor-breadcrumbs">
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/americantelecastproducts.html">AmericanTelecastProducts</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/americantelecastproducts-extensions.html">Extensions</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/earthasylumconsulting.html">EarthAsylumConsulting</a></li>
     </ul>
 
-    <article class="phpdocumentor-element -class">
+    <article class="phpdocumentor-element -interface">
         <h2 class="phpdocumentor-content__title">
-    encryption_extension
-
-        <span class="phpdocumentor-element__extends">
-        extends <abbr title="\EarthAsylumConsulting\abstract_extension">abstract_extension</abbr>
-    </span>
-    
-            <div class="phpdocumentor-element__package">
-            in package
+    kinsta_cache
+                <div class="phpdocumentor-element__package">
+            in
             <ul class="phpdocumentor-breadcrumbs">
-                                    <li class="phpdocumentor-breadcrumb"><a href="packages/atpCustom.html">atpCustom</a></li>
-                                    <li class="phpdocumentor-breadcrumb"><a href="packages/atpCustom-extensions.html">extensions</a></li>
+                                    <li><a href="packages/atpCustom.html">atpCustom</a></li>
                             </ul>
         </div>
-    
-    
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/encryption.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-encryption-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/encryption.extension.php">encryption.extension.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-cache-api-trait.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php">kinsta_cache_api.trait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">68</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Extension: encryption - string encryption/decryption - ATP Custom Plugin for WordPress</p>
+            <p class="phpdocumentor-summary">Kinsta Cache API</p>
 
 
 
@@ -185,19 +176,10 @@
 
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">copyright</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2023 EarthAsylum Consulting &lt;www.EarthAsylum.com&gt;</p>
-</section>
-
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">version</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                            <span class="phpdocumentor-tag-link">4.x</span>
+                                            <span class="phpdocumentor-tag-link">25.0527.1</span>
                                                                                 
                                              
                                     </dd>
@@ -215,27 +197,48 @@
 
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-encryption-extension.html#constant_VERSION">VERSION</a>
+    <a href="classes/EarthAsylumConsulting-kinsta-cache.html#constant_KINSTA_LOCAL">KINSTA_LOCAL</a>
     <span>
-        &nbsp;= &#039;25.0314.1&#039;                            </span>
+        &nbsp;= true                            </span>
 </dt>
 <dd></dd>
 
-                        <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-encryption-extension.html#method___construct">__construct()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/EarthAsylumConsulting-kinsta-cache.html#constant_KINSTA_REMOTE_URL">KINSTA_REMOTE_URL</a>
     <span>
-                                &nbsp;: void    </span>
+        &nbsp;= &#039;https://api.kinsta.com/v2/&#039;                            </span>
 </dt>
-<dd>constructor method</dd>
+<dd></dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/AmericanTelecastProducts-Extensions-encryption-extension.html#method_initialize">initialize()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/EarthAsylumConsulting-kinsta-cache.html#constant_KINSTA_RESULT_LOG">KINSTA_RESULT_LOG</a>
     <span>
-                                &nbsp;: void    </span>
+        &nbsp;= true                            </span>
 </dt>
-<dd>initialize method - called from main plugin</dd>
+<dd></dd>
 
-        </dl>
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/EarthAsylumConsulting-kinsta-cache.html#constant_KINSTA_RESULT_NOTIFY">KINSTA_RESULT_NOTIFY</a>
+    <span>
+        &nbsp;= true                            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/EarthAsylumConsulting-kinsta-cache.html#constant_TRANSIENT_TTL_GET">TRANSIENT_TTL_GET</a>
+    <span>
+        &nbsp;= DAY_IN_SECONDS                            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/EarthAsylumConsulting-kinsta-cache.html#constant_TRANSIENT_TTL_POST">TRANSIENT_TTL_POST</a>
+    <span>
+        &nbsp;= MINUTE_IN_SECONDS * 2.5                            </span>
+</dt>
+<dd></dd>
+
+                    </dl>
 
 
 
@@ -243,18 +246,50 @@
     <section class="phpdocumentor-constants">
         <h3 class="phpdocumentor-elements__header" id="constants">
             Constants
-            <a href="classes/AmericanTelecastProducts-Extensions-encryption-extension.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/EarthAsylumConsulting-kinsta-cache.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_VERSION">
-        VERSION
-        <a href="classes/AmericanTelecastProducts-Extensions-encryption-extension.html#constant_VERSION" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="constant_KINSTA_LOCAL">
+        KINSTA_LOCAL
+        <a href="classes/EarthAsylumConsulting-kinsta-cache.html#constant_KINSTA_LOCAL" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/encryption.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-encryption-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/encryption.extension.php">encryption.extension.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-cache-api-trait.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php">kinsta_cache_api.trait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">76</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">KINSTA_LOCAL</span>
+    = <span class="phpdocumentor-signature__default-value">true</span>
+</code>
+
+
+    
+        <section class="phpdocumentor-description"><p>use local (true) or remote (false) endpoint for site &amp; cdn cache api.
+local endpoint is the same as the offcial Kinsta plugin and offers no operation check,
+remote uses the documented api and provides operation_id for follow-up check.
+edge-cache has no local endpoint.</p>
+</section>
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KINSTA_REMOTE_URL">
+        KINSTA_REMOTE_URL
+        <a href="classes/EarthAsylumConsulting-kinsta-cache.html#constant_KINSTA_REMOTE_URL" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-cache-api-trait.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php">kinsta_cache_api.trait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">81</span>
 
     </aside>
 
@@ -262,13 +297,132 @@
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">VERSION</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;25.0314.1&#039;</span>
+    <span class="phpdocumentor-signature__name">KINSTA_REMOTE_URL</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;https://api.kinsta.com/v2/&#039;</span>
 </code>
 
 
     
-        <section class="phpdocumentor-description"><p>extension version</p>
+        <section class="phpdocumentor-description"><p>kinsta api url</p>
+</section>
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KINSTA_RESULT_LOG">
+        KINSTA_RESULT_LOG
+        <a href="classes/EarthAsylumConsulting-kinsta-cache.html#constant_KINSTA_RESULT_LOG" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-cache-api-trait.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php">kinsta_cache_api.trait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">86</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">KINSTA_RESULT_LOG</span>
+    = <span class="phpdocumentor-signature__default-value">true</span>
+</code>
+
+
+    
+        <section class="phpdocumentor-description"><p>log results (eacDoojigger / Query Montor)</p>
+</section>
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_KINSTA_RESULT_NOTIFY">
+        KINSTA_RESULT_NOTIFY
+        <a href="classes/EarthAsylumConsulting-kinsta-cache.html#constant_KINSTA_RESULT_NOTIFY" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-cache-api-trait.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php">kinsta_cache_api.trait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">91</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">KINSTA_RESULT_NOTIFY</span>
+    = <span class="phpdocumentor-signature__default-value">true</span>
+</code>
+
+
+    
+        <section class="phpdocumentor-description"><p>display wp_admin_notice</p>
+</section>
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TRANSIENT_TTL_GET">
+        TRANSIENT_TTL_GET
+        <a href="classes/EarthAsylumConsulting-kinsta-cache.html#constant_TRANSIENT_TTL_GET" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-cache-api-trait.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php">kinsta_cache_api.trait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">97</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">int|bool</span>
+    <span class="phpdocumentor-signature__name">TRANSIENT_TTL_GET</span>
+    = <span class="phpdocumentor-signature__default-value">DAY_IN_SECONDS</span>
+</code>
+
+
+    
+        <section class="phpdocumentor-description"><p>cache time-to-live of GET results
+GET requests retrieve relatively static data.</p>
+</section>
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TRANSIENT_TTL_POST">
+        TRANSIENT_TTL_POST
+        <a href="classes/EarthAsylumConsulting-kinsta-cache.html#constant_TRANSIENT_TTL_POST" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php"><a href="files/atpcustom-americantelecastproducts-extensions-kinsta-kinsta-cache-api-trait.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/kinsta/kinsta_cache_api.trait.php">kinsta_cache_api.trait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">104</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">int|bool</span>
+    <span class="phpdocumentor-signature__name">TRANSIENT_TTL_POST</span>
+    = <span class="phpdocumentor-signature__default-value">MINUTE_IN_SECONDS * 2.5</span>
+</code>
+
+
+    
+        <section class="phpdocumentor-description"><p>cache time-to-live of POST results
+POST requests perform dynamic actions.
+this is used to prevent repeated actions and to schedule check operation events.</p>
 </section>
 
     
@@ -277,92 +431,6 @@
             </section>
 
         
-
-            <section class="phpdocumentor-methods">
-        <h3 class="phpdocumentor-elements__header" id="methods">
-            Methods
-            <a href="classes/AmericanTelecastProducts-Extensions-encryption-extension.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
-        </h3>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method___construct">
-        __construct()
-        <a href="classes/AmericanTelecastProducts-Extensions-encryption-extension.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/encryption.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-encryption-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/encryption.extension.php">encryption.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">31</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">constructor method</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$plugin</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$plugin</span>
-                : <span class="phpdocumentor-signature__argument__return-type">object</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>main plugin object</p>
-</section>
-
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_initialize">
-        initialize()
-        <a href="classes/AmericanTelecastProducts-Extensions-encryption-extension.html#method_initialize" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/encryption.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-encryption-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/encryption.extension.php">encryption.extension.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">48</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">initialize method - called from main plugin</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">initialize</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-            </section>
-
         
     <script type="text/javascript">
         function loadExternalCodeSnippets(line) {
@@ -439,7 +507,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/AmericanTelecastProducts-Extensions-encryption-extension.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/EarthAsylumConsulting-kinsta-cache.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

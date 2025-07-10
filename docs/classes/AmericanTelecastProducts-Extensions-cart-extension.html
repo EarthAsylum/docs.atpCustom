@@ -189,7 +189,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2024 American Telecast Products</p>
+                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2025 American Telecast Products</p>
 </section>
 
                                     </dd>
@@ -240,9 +240,16 @@
 
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/AmericanTelecastProducts-Extensions-cart-extension.html#constant_TAB_NAME">TAB_NAME</a>
+    <span>
+        &nbsp;= &#039;WooCommerce&#039;                            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a href="classes/AmericanTelecastProducts-Extensions-cart-extension.html#constant_VERSION">VERSION</a>
     <span>
-        &nbsp;= &#039;24.0626.1&#039;                            </span>
+        &nbsp;= &#039;25.0225.1&#039;                            </span>
 </dt>
 <dd></dd>
 
@@ -364,6 +371,13 @@
                                 &nbsp;: void    </span>
 </dt>
 <dd>called before calculating cart totals (woocommerce_before_calculate_totals)</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/AmericanTelecastProducts-Extensions-cart-extension.html#method_calculate_cart_totals_coupon">calculate_cart_totals_coupon()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Add/remove auto coupons (either before_calculate_cart_totals or after_calculate_cart_totals)</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/AmericanTelecastProducts-Extensions-cart-extension.html#method_calculate_first_payment_total">calculate_first_payment_total()</a>
@@ -671,6 +685,35 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
             <a href="classes/AmericanTelecastProducts-Extensions-cart-extension.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_TAB_NAME">
+        TAB_NAME
+        <a href="classes/AmericanTelecastProducts-Extensions-cart-extension.html#constant_TAB_NAME" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">28</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">TAB_NAME</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;WooCommerce&#039;</span>
+</code>
+
+
+    
+        <section class="phpdocumentor-description"><p>extension tab name</p>
+</section>
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
     <h4 class="phpdocumentor-element__name" id="constant_VERSION">
         VERSION
         <a href="classes/AmericanTelecastProducts-Extensions-cart-extension.html#constant_VERSION" class="headerlink"><i class="fas fa-link"></i></a>
@@ -688,7 +731,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">VERSION</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;24.0626.1&#039;</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;25.0225.1&#039;</span>
 </code>
 
 
@@ -723,7 +766,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
@@ -757,7 +800,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -795,7 +838,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">100</span>
+    <span class="phpdocumentor-element-found-in__line">105</span>
 
     </aside>
 
@@ -840,7 +883,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1930</span>
+    <span class="phpdocumentor-element-found-in__line">1958</span>
 
     </aside>
 
@@ -918,7 +961,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1835</span>
+    <span class="phpdocumentor-element-found-in__line">1863</span>
 
     </aside>
 
@@ -982,7 +1025,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1884</span>
+    <span class="phpdocumentor-element-found-in__line">1912</span>
 
     </aside>
 
@@ -1056,7 +1099,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">265</span>
+    <span class="phpdocumentor-element-found-in__line">270</span>
 
     </aside>
 
@@ -1089,7 +1132,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">830</span>
+    <span class="phpdocumentor-element-found-in__line">835</span>
 
     </aside>
 
@@ -1203,7 +1246,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">498</span>
+    <span class="phpdocumentor-element-found-in__line">503</span>
 
     </aside>
 
@@ -1236,7 +1279,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">510</span>
+    <span class="phpdocumentor-element-found-in__line">515</span>
 
     </aside>
 
@@ -1271,7 +1314,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">138</span>
+    <span class="phpdocumentor-element-found-in__line">143</span>
 
     </aside>
 
@@ -1319,7 +1362,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2197</span>
+    <span class="phpdocumentor-element-found-in__line">2241</span>
 
     </aside>
 
@@ -1364,7 +1407,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">769</span>
+    <span class="phpdocumentor-element-found-in__line">774</span>
 
     </aside>
 
@@ -1408,7 +1451,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2035</span>
+    <span class="phpdocumentor-element-found-in__line">2063</span>
 
     </aside>
 
@@ -1453,7 +1496,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1802</span>
+    <span class="phpdocumentor-element-found-in__line">1830</span>
 
     </aside>
 
@@ -1505,7 +1548,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">935</span>
+    <span class="phpdocumentor-element-found-in__line">940</span>
 
     </aside>
 
@@ -1542,7 +1585,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2170</span>
+    <span class="phpdocumentor-element-found-in__line">2198</span>
 
     </aside>
 
@@ -1580,6 +1623,53 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_calculate_cart_totals_coupon">
+        calculate_cart_totals_coupon()
+        <a href="classes/AmericanTelecastProducts-Extensions-cart-extension.html#method_calculate_cart_totals_coupon" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">2254</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Add/remove auto coupons (either before_calculate_cart_totals or after_calculate_cart_totals)</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">calculate_cart_totals_coupon</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$wcCart</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$wcCart</span>
+                : <span class="phpdocumentor-signature__argument__return-type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>woocommercce cart</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>true on discount change</p>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_calculate_first_payment_total">
         calculate_first_payment_total()
         <a href="classes/AmericanTelecastProducts-Extensions-cart-extension.html#method_calculate_first_payment_total" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1587,7 +1677,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1701</span>
+    <span class="phpdocumentor-element-found-in__line">1729</span>
 
     </aside>
 
@@ -1652,7 +1742,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1625</span>
+    <span class="phpdocumentor-element-found-in__line">1653</span>
 
     </aside>
 
@@ -1706,7 +1796,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1724</span>
+    <span class="phpdocumentor-element-found-in__line">1752</span>
 
     </aside>
 
@@ -1771,7 +1861,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">808</span>
+    <span class="phpdocumentor-element-found-in__line">813</span>
 
     </aside>
 
@@ -1847,7 +1937,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3336</span>
+    <span class="phpdocumentor-element-found-in__line">3400</span>
 
     </aside>
 
@@ -1903,7 +1993,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2140</span>
+    <span class="phpdocumentor-element-found-in__line">2168</span>
 
     </aside>
 
@@ -1949,7 +2039,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1172</span>
+    <span class="phpdocumentor-element-found-in__line">1200</span>
 
     </aside>
 
@@ -2007,7 +2097,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1088</span>
+    <span class="phpdocumentor-element-found-in__line">1116</span>
 
     </aside>
 
@@ -2040,7 +2130,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1783</span>
+    <span class="phpdocumentor-element-found-in__line">1811</span>
 
     </aside>
 
@@ -2073,7 +2163,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1360</span>
+    <span class="phpdocumentor-element-found-in__line">1388</span>
 
     </aside>
 
@@ -2106,7 +2196,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1476</span>
+    <span class="phpdocumentor-element-found-in__line">1504</span>
 
     </aside>
 
@@ -2151,7 +2241,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1493</span>
+    <span class="phpdocumentor-element-found-in__line">1521</span>
 
     </aside>
 
@@ -2203,7 +2293,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2021</span>
+    <span class="phpdocumentor-element-found-in__line">2049</span>
 
     </aside>
 
@@ -2264,7 +2354,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1751</span>
+    <span class="phpdocumentor-element-found-in__line">1779</span>
 
     </aside>
 
@@ -2309,7 +2399,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1768</span>
+    <span class="phpdocumentor-element-found-in__line">1796</span>
 
     </aside>
 
@@ -2342,7 +2432,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1131</span>
+    <span class="phpdocumentor-element-found-in__line">1159</span>
 
     </aside>
 
@@ -2402,7 +2492,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1341</span>
+    <span class="phpdocumentor-element-found-in__line">1369</span>
 
     </aside>
 
@@ -2474,7 +2564,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1314</span>
+    <span class="phpdocumentor-element-found-in__line">1342</span>
 
     </aside>
 
@@ -2537,7 +2627,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1232</span>
+    <span class="phpdocumentor-element-found-in__line">1260</span>
 
     </aside>
 
@@ -2591,7 +2681,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1518</span>
+    <span class="phpdocumentor-element-found-in__line">1546</span>
 
     </aside>
 
@@ -2637,7 +2727,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">574</span>
+    <span class="phpdocumentor-element-found-in__line">579</span>
 
     </aside>
 
@@ -2670,7 +2760,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3322</span>
+    <span class="phpdocumentor-element-found-in__line">3386</span>
 
     </aside>
 
@@ -2714,7 +2804,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3311</span>
+    <span class="phpdocumentor-element-found-in__line">3375</span>
 
     </aside>
 
@@ -2758,7 +2848,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3234</span>
+    <span class="phpdocumentor-element-found-in__line">3298</span>
 
     </aside>
 
@@ -2802,7 +2892,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3245</span>
+    <span class="phpdocumentor-element-found-in__line">3309</span>
 
     </aside>
 
@@ -2846,7 +2936,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">869</span>
+    <span class="phpdocumentor-element-found-in__line">874</span>
 
     </aside>
 
@@ -2891,7 +2981,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">884</span>
+    <span class="phpdocumentor-element-found-in__line">889</span>
 
     </aside>
 
@@ -2936,7 +3026,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3152</span>
+    <span class="phpdocumentor-element-found-in__line">3215</span>
 
     </aside>
 
@@ -2990,7 +3080,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3223</span>
+    <span class="phpdocumentor-element-found-in__line">3287</span>
 
     </aside>
 
@@ -3034,7 +3124,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1571</span>
+    <span class="phpdocumentor-element-found-in__line">1599</span>
 
     </aside>
 
@@ -3090,7 +3180,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3300</span>
+    <span class="phpdocumentor-element-found-in__line">3364</span>
 
     </aside>
 
@@ -3134,7 +3224,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3289</span>
+    <span class="phpdocumentor-element-found-in__line">3353</span>
 
     </aside>
 
@@ -3178,7 +3268,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3256</span>
+    <span class="phpdocumentor-element-found-in__line">3320</span>
 
     </aside>
 
@@ -3222,7 +3312,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3267</span>
+    <span class="phpdocumentor-element-found-in__line">3331</span>
 
     </aside>
 
@@ -3266,7 +3356,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3278</span>
+    <span class="phpdocumentor-element-found-in__line">3342</span>
 
     </aside>
 
@@ -3310,7 +3400,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">254</span>
+    <span class="phpdocumentor-element-found-in__line">259</span>
 
     </aside>
 
@@ -3343,7 +3433,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">3370</span>
+    <span class="phpdocumentor-element-found-in__line">3434</span>
 
     </aside>
 
@@ -3399,7 +3489,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">914</span>
+    <span class="phpdocumentor-element-found-in__line">919</span>
 
     </aside>
 
@@ -3453,7 +3543,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1977</span>
+    <span class="phpdocumentor-element-found-in__line">2005</span>
 
     </aside>
 
@@ -3503,7 +3593,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">2070</span>
+    <span class="phpdocumentor-element-found-in__line">2098</span>
 
     </aside>
 
@@ -3548,7 +3638,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1287</span>
+    <span class="phpdocumentor-element-found-in__line">1315</span>
 
     </aside>
 
@@ -3618,7 +3708,7 @@ or &quot;Due Today&quot; details ($this-&gt;cart_checkout_order_total())</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php"><a href="files/atpcustom-americantelecastproducts-extensions-woocommerce-cart-extension.html"><abbr title="atpCustom/AmericanTelecastProducts/Extensions/woocommerce/cart.extension.php">cart.extension.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">716</span>
+    <span class="phpdocumentor-element-found-in__line">721</span>
 
     </aside>
 
